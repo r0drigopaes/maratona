@@ -1,3 +1,9 @@
+/*
+	UVA 12398 - Copying Anything
+	Flood Fill
+	Gio Martins
+*/
+
 #include <bits/stdc++.h>
 using namespace std;
 
