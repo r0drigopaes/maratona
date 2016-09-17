@@ -5,10 +5,10 @@ Códigos de treinamentos da maratona do IC/UFAL
 
 # Nome do arquivo
 Sempre use letras minúsculas, sem acentos e o separador deve ser o caractere '_' 
-Identifique o online judge, o id da questão e a técnica.
+Identifique o online judge e o id da questão.
 
 Exemplo:
-huxley_567_dp.cpp
+huxley_567.cpp
 
 
 # Cabeçalho do arquivo
