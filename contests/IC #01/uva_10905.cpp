@@ -1,3 +1,11 @@
+/*
+
+UVA 10905 - Children's Game
+STL
+Matheus Inácio
+
+*/
+
 #include <bits/stdc++.h>
 
 using namespace std;
