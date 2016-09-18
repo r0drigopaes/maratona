@@ -1,3 +1,9 @@
+/*
+	UVA 12541 - Copying Anything
+	Operator Overload
+	Gio Martins
+*/
+
 #include <bits/stdc++.h>
 using namespace std;
 
