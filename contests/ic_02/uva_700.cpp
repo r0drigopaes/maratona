@@ -13,20 +13,14 @@ using namespace std;
 // inclusivo, exclusivo
 void exclude_interval(int from, int to, bitset<MAX> &bits)
 {	
+
 	if (to<=from) return;
-	static bitset<MAX> m1, m2;
+	static bitset<MAX> m1;
+	int num_bits = to - from;
 	
 	m1.set();
-	m2.set();	
-	if (from>=0 && from <MAX)
-	{
-		m1 <<= from;	
-	}	
-	m2 <<= to;
-	// inverte m2, assim, os bits de antes ficam todos como 1
-	m2 = ~m2;
-	// interseção, então o intervalo será 1. Depois nega, criando uma máscara com o intervalo 0 e o resto 1
-	m1 = ~(m1&m2);
+	m1 = ~((~( m1 << num_bits) ) << from) ;
+
 	// exclui todos os anos da máscara
 	bits = m1 & bits;				
 }
